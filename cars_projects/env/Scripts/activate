@@ -65,6 +65,8 @@ if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     export VIRTUAL_ENV_PROMPT
 fi
 
-# Call hash to forget past commands. Without forgetting
+# Call hash to forget past commands. Without forgettingg
 # past commands the $PATH changes we made may not be respected
 hash -r 2> /dev/null
+
+
