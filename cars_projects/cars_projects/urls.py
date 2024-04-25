@@ -4,6 +4,6 @@ from cars.views import CarListView, CarDetailView
 
 urlpatterns = [
     path('admin/', admin.site.urls),  # Include Django admin URLs
-    path('cars/', CarListView.as_view(), name='car_list'),
+    path('', CarListView.as_view(), name='car_list'),
     path('cars/<int:pk>/', CarDetailView.as_view(), name='car_detail'),
 ]
